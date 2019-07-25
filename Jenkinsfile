@@ -35,9 +35,4 @@ pipeline {
            }
        }
    }
-   post {
-           always {
-               archiveArtifacts artifacts: '**/rsvp-service-1.0-SNAPSHOT.jar', fingerprint: true
-           }
-       }
 }
