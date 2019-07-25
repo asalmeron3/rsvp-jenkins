@@ -1,5 +1,6 @@
 pipeline {
    agent any
+
    tools {
        maven 'maven361'
        jdk 'jdk18'
