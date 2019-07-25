@@ -6,4 +6,4 @@ echo 'Jenkins''s local Maven repository (and the "maven-repository" Docker data'
 echo 'volume).'
 set -x
 mvn jar:jar install:install help:evaluate -Dexpression=project.name
-set +x
+set +x//
