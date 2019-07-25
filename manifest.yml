@@ -1,0 +1,10 @@
+applications:
+  - name: Jenkins-Rsvp
+    memory: 1024M
+    instances: 1
+    random-route: true
+    path: ./target/rsvp-service-1.0-SNAPSHOT.jar
+    services:
+      - rsvp
+    env:
+      JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
