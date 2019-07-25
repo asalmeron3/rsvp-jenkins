@@ -7,5 +7,3 @@ echo 'volume).'
 set -x
 mvn jar:jar install:install help:evaluate -Dexpression=project.name
 set +x
-
-set +x
