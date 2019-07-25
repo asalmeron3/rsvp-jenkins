@@ -61,5 +61,5 @@ public class RsvpController {
         System.out.println("DELETING RSVP ID = " + id   );
         dao.deleteRsvp(id);
     }
-
+    // rsvp-service in IdeaProject
 }
