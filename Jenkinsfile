@@ -35,4 +35,9 @@ pipeline {
            }
        }
    }
+  post {
+          always {
+              archiveArtifacts artifacts: '**/my-app-1.0-SNAPSHOT.jar', fingerprint: true
+          }
+      }
 }
